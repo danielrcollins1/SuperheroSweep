@@ -102,7 +102,7 @@ void runAllTrials () {
 }
 
 // Print program banner
-void printProgramBanner () {
+void printBanner () {
 	cout << "Superhero Sweep Simulator\n";
 	cout << "-------------------------\n";
 	cout << "Fighter Level: " << FIGHTER_LEVEL << endl;
@@ -112,7 +112,7 @@ void printProgramBanner () {
 // Main test driver.
 int main(int argc, char** argv) {
 	srand(time(0));
-	printProgramBanner();
+	printBanner();
 	runAllTrials();
 	return 0;
 }
